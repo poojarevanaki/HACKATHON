@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-color: linear-gradient(#0003AA, #55105f);;
+    color: white;
+}
+
+logo {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0px 100px;
+}
+nav{
+    background: linear-gradient(#0003AA, #5B0369);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+     }
+
+nav ul {
+    list-style: none;
+    margin-left: auto;
+    gap: 20px;
+}
+nav ul li{
+ display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+}
+.log img{
+    margin-top: 12px;
+}
+
+.login-btn {
+    background-color: #e63946;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    padding: 50px;
+    background-color: #1d3557;
+    color: white;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+}
+
+.hero-image img {
+    max-width: 50%;
+    height: auto;
+}
+
+.strategies {
+    padding: 50px;
+    text-align: center;
+}
+
+.strategy-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    align-content: left;
+}
+
+.strategy-item {
+    flex: 1 1 calc(50% - 40px);
+    background-color: #f1faee;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.strategies {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+}
+
+.strategies-content {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.strategy-list {
+    flex: 1; 
+}
+
+.strategy-item {
+    background-color: #f2f2f2; 
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    padding: 50px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #0d3b66;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    background-color: #0d3b66;
+    color: white;
+    text-align: center;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+}
